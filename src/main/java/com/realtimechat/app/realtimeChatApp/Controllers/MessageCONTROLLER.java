@@ -9,7 +9,7 @@ import com.realtimechat.app.realtimeChatApp.DTO.MessageDTO;
 
 @RestController
 public class MessageCONTROLLER {
-	
+	//controller for new messages
 	
 	@MessageMapping("/message")
 	@SendTo("/topic/return-to")
